@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.wifidirect"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="23" />
+9-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml
+10
+11    <!-- runtime permission check API is on Android 6.0 or higher -->
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:6:5-76
+12-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:7:5-76
+13-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+14-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:8:5-79
+14-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:9:5-67
+15-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:10:5-79
+16-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:11:5-75
+17-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:11:22-72
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:12:5-81
+18-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:13:5-79
+19-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:13:22-76
+20
+21    <!-- Google Play filtering -->
+22    <uses-feature
+22-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:16:5-88
+23        android:name="android.hardware.wifi.direct"
+23-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:16:19-62
+24        android:required="true" />
+24-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:16:63-86
+25
+26    <application
+26-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:18:5-46:19
+27        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+27-->[com.android.support:support-compat:28.0.0] /Users/zhonghanwen/.gradle/caches/transforms-2/files-2.1/00567bd0de14b33d1bf8a440dc72bff8/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@drawable/ic_launcher"
+30-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:19:9-45
+31        android:label="@string/app_name"
+31-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:20:9-41
+32        android:testOnly="true"
+33        android:theme="@android:style/Theme.Holo" >
+33-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:21:9-50
+34        <activity
+34-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:22:9-31:20
+35            android:name="com.example.android.wifidirect.WiFiDirectActivity"
+35-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:23:13-47
+36            android:label="@string/app_name"
+36-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:24:13-45
+37            android:launchMode="singleTask" >
+37-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:24:46-77
+38            <intent-filter>
+38-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:25:13-30:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:26:17-27:65
+39-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:27:21-62
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:28:17-29:71
+41-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:29:21-68
+42            </intent-filter>
+43        </activity>
+44
+45        <provider
+45-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:33:9-41:20
+46            android:name="android.support.v4.content.FileProvider"
+46-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:34:13-67
+47            android:authorities="com.example.android.wifidirect.fileprovider"
+47-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:35:13-78
+48            android:exported="false"
+48-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:36:13-37
+49            android:grantUriPermissions="true" >
+49-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:37:13-47
+50            <meta-data
+50-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:38:13-40:58
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:39:17-67
+52                android:resource="@xml/provider_paths" />
+52-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:40:17-55
+53        </provider>
+54
+55        <!-- Used for transferring files  after a successful connection -->
+56        <service
+56-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:44:9-79
+57            android:name="com.example.android.wifidirect.FileTransferService"
+57-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:44:41-76
+58            android:enabled="true" />
+58-->/Users/zhonghanwen/AndroidStudioProjects/development-master-samples-WiFiDirectDemo/app/src/main/AndroidManifest.xml:44:18-40
+59    </application>
+60
+61</manifest>
